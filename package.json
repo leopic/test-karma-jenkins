@@ -1,0 +1,33 @@
+{
+  "name": "jenkins-test-repo",
+  "version": "1.0.0",
+  "description": "testing repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leopic/test-karma-jenkins.git"
+  },
+  "keywords": [
+    "test",
+    "jenkins",
+    "karma"
+  ],
+  "author": "Leo Picado <leopic@gmail.com> (http://leonardopicado.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leopic/test-karma-jenkins/issues"
+  },
+  "homepage": "https://github.com/leopic/test-karma-jenkins",
+  "devDependencies": {
+    "chai": "^3.1.0",
+    "karma": "^0.13.2",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.17"
+  }
+}
