@@ -6,7 +6,7 @@ describe('A test suite', function() {
   afterEach(function() { });
 
   it('should work?', function() {
-    expect(true).to.be.equal(false);
+    expect(true).to.be.equal(true);
   });
 });
 
