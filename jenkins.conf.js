@@ -24,12 +24,6 @@ module.exports = function(config) {
     ],
 
 
-    // preprocess matching files before serving them to the browser
-    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-    },
-
-
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
@@ -46,7 +40,7 @@ module.exports = function(config) {
 
 
     // enable / disable colors in the output (reporters and logs)
-    colors: true,
+    colors: false,
 
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
@@ -67,3 +61,4 @@ module.exports = function(config) {
     singleRun: true
   });
 };
+
