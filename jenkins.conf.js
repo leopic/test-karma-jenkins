@@ -36,7 +36,7 @@ module.exports = function(config) {
     reporters: ['dots', 'junit'],
 
     junitReporter: {
-      outputDir: '/Users/leo/Sites/jenkins-test-repo',
+      outputDir: '/var/jenkins_home/jobs/build/workspace',
       outputFile: 'test-results.xml'
     },
 
