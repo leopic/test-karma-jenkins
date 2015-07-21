@@ -30,8 +30,8 @@ module.exports = function(config) {
     reporters: ['dots', 'junit'],
 
     junitReporter: {
-      outputDir: '/var/jenkins_home/jobs/build/workspace',
-      outputFile: 'test-results.xml'
+      outputDir: process.cwd(),
+      outputFile: 'javascript-test-results.xml'
     },
 
 
